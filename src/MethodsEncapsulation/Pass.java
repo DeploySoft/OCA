@@ -38,12 +38,12 @@ class Test {
 class PrimitiveByValueExample {
     public static void main(String... primitiveByValue) {
         int age = 30;
-        changeHomerAge(age);
+        changeAge(age);
         //The value won't change
         System.out.println(age);
     }
 
-    static void changeHomerAge(int age) {
+    static void changeAge(int age) {
         age = 35;
     }
 }
