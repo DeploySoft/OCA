@@ -19,6 +19,7 @@ public class HandlerException {
     public static void main(String[] args) {
         Super s = new Sub();
         try {
+
             s.m1();
         }catch (IOException e){
 //        } catch (FileNotFoundException e) { //This is wrong even IOException is checked exception hence calling code should handle it. Not just its inheritance
