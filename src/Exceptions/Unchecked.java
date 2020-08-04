@@ -14,7 +14,4 @@ public abstract class Unchecked {
     public abstract void VirtualMachineError() throws VirtualMachineError;
 
 
-
-
-
 }
