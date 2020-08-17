@@ -46,3 +46,12 @@ public class Modifiers {
         |                |            |              |            |          |
         |----------------+------------+--------------+------------+----------+
 */
+
+/*
+ * Non Access modifiers
+ * static
+ * final
+ * abstract
+ * synchronized
+ * volatile
+ * */
