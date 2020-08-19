@@ -14,6 +14,7 @@ class Student {
 
     /**
      * between constructors should call with reserved word <b>this</b>
+     * to call your parent constructor you should use <b>super</b>
      */
     Student() {
 //        Student("James", 25);
