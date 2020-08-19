@@ -14,7 +14,9 @@ public class JavaApisHowToWorks {
      * remember LocalDate is a final class so you cannot instance this class
      * new LocalDate();
      *
+     * Don't confuse M & m and D & d(day of the month)
      * @throws DateTimeException because valid month days and leap years
+     * The minimum supported LocalDate is: {-999999999-01-01} and maximum supported LocalDate is: {+999999999-12-31}.
      */
     public static void LocalDateCheck() throws DateTimeException {
         //This gonna throw a exception DateTimeException  'cause September hasn't have 31 days
