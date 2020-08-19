@@ -15,8 +15,9 @@ class Student {
     /**
      * between constructors should call with reserved word <b>this</b>
      * to call your parent constructor you should use <b>super</b>
+     * You could use modifier access in constructor but not return type
      */
-    Student() {
+     Student() {
 //        Student("James", 25);
         this("James", 25);
     }
