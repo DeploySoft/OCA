@@ -17,6 +17,10 @@ public class Declaration {
         for (int i = 0, j = 10; i < 10; i++, j--) {
             System.out.println(i + "-" + j);
         }
+
+        for (int gap = 200 / 2; gap > 0; gap /= 2) {
+            System.out.println(gap);
+        }
     }
 
 }
