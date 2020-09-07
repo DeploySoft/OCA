@@ -21,6 +21,12 @@ public class Declaration {
         for (int gap = 200 / 2; gap > 0; gap /= 2) {
             System.out.println(gap);
         }
+
+        //Infinitive loop
+        for (; ; ) {
+            System.out.println("wtf");
+        }
+
     }
 
 }
