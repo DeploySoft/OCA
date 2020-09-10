@@ -1,6 +1,7 @@
 package Apis;
 
 import java.time.DateTimeException;
+import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.LocalTime;
 
@@ -26,6 +27,8 @@ public class JavaApisHowToWorks {
         LocalDate.of(2019, 2, 29);
         //This gonna throw a exception DateTimeException  'causethe time is since 0 until 59
         LocalTime time = LocalTime.of(23,60);
+        DayOfWeek dayOfWeek = LocalDate.of(2020, 1, 1).getDayOfWeek();
+        DayOfWeek dayOfWeek1 = DayOfWeek.FRIDAY;
     }
 
     /**

@@ -14,5 +14,6 @@ class Child extends Parent {
     public Child(String id) {
         //If the parent has a constructor you must call parent constructor with super or this
         super(id);
+        //this(id)
     }
 }
