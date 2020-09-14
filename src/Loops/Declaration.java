@@ -21,12 +21,13 @@ public class Declaration {
         for (int gap = 200 / 2; gap > 0; gap /= 2) {
             System.out.println(gap);
         }
-
+        // loop without body
+        while (a < b) ;
         //Infinitive loop
         for (; ; ) {
             System.out.println("wtf");
         }
 
-    }
 
+    }
 }
